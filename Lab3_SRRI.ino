@@ -2,9 +2,7 @@
  * @file   Lab3_Demo1.ino
  *   @author    Clayden Boyd, Jin Terada White
  *   @date      19-May-2021
- *   @brief  This sketch creates a round robin scheduler for two tasks:
- *    Task1, which flashes an external LED once per seconds for 250 ms
- *    Task2, which plays the melody from “Close Encounters of the Third Kind” 
+ *   @brief  This sketch creates a SSRI scheduler for the tasks in the RR scheduler
  */
 
 #include <avr/interrupt.h>
